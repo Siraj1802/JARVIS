@@ -1,0 +1,47 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Local databases and user data
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Downloaded AI models
+*.gguf
+*.safetensors
+*.onnx
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# macOS files
+.DS_Store
+
+# Editor temporary files
+*.swp
+*.swo
